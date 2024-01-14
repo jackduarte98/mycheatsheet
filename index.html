@@ -1,0 +1,72 @@
+<!--The DOCTYPE must be at the beginning of every HTML page. This tells the markup language and version to use. -->
+<!--Remember to add indentations/spaces for each element for better readability.-->
+<!DOCTYPE html>
+
+
+<html><!--This contains all other elements and begins an HTML document-->
+
+
+<head><!--This contains elements for a webpage title and other information. E.G link to CSS and importing font links-->
+    
+    <title> My cheat Sheet</title> <!--Title of the Webpage-->
+    
+    <link rel="stylesheet" href="style.css"> <!--The <link> element specifies relationships between the current document and an external resource. Just like an <img> element, the link is a self closing tag-->
+</head>
+
+
+ <body><!--The body contains all other elements for displaying webpage content-->
+
+
+  <h1>HTML and CSS cheat sheet</h1> <!--The h1-h6 elements are used for web titles, each for text size-->
+
+  <div><!--The <div> HTML element is the generic container for flow content.-->
+<p> <!--The p (Paragraph) element is used for a large amount of text. -->
+    Here I am building my own reference cheat sheet to help build more websites in the future! This skeleton is to help undertand 
+    the structure of how to construct a webpage and also design its apperence using CSS (Cascade Style Sheet).
+   </p>
+    </div>
+
+    
+<table><!--Table element is the wrapper element for all HTML tables. -->
+    <thead><!--The set of rows defining the column headers in a table.-->
+      <tr> <!--The table row container.-->
+        <!--The colspan attribute defines how many columns a td element should span.-->
+        <th colspan="2">My favouite colors</th><!--The <th> element represents a header cell in a table.-->
+      </tr>
+    </thead>
+    <tbody><!--The set of rows containing actual table data.-->
+      <tr>
+        <td class="blue">Blue</td><!--The table row container.-->
+        <td class="red">Red</td> <!--The class attribute allows CSS and JavaScript to select and access specific elements-->
+      </tr>
+      <tr>
+        <td class="green">Green</td>
+        <td class="silver">Silver</td>
+      </tr>
+    </tbody>
+  </table>
+
+<h2>Animals I am allergic to in a bulleted list</h2>
+
+  <ul><!--The <ul> element represents an unordered list of items, typically rendered as a bulleted list-->
+    <li>Cats</li> <img src="images/tabbycat.webp" alt="This is an image of a tabby cat"><!--The <img> element embeds an image into the document.The alt attribute holds a textual replacement for the image if the image couldnt be loaded-->
+    <li>Dogs</li> <img src="images/siberianhusky.webp" alt="This is an image of a siberian husky">
+    <li>Anything with fur</li><!--The <li> HTML element is used to represent an item in a list.-->
+  </ul>
+
+  <h2>Favourite car brands is a number list </h2>
+
+  <ol>
+    <li><a href="https://www.porsche.com/uk/" >Porsche link opens in same window</a></li> <!--The <a> (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.-->
+    <li><a href="https://www.audi.co.uk/uk/web/en.html" target="_blank">Audi link opens in another window</a></li> <!--The <a> element with its target attribute, creates a hyperlink to web pages, files, email addresses to open the link in another web browser page. -->
+    <li>Cupra</li>
+  </ol>
+
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

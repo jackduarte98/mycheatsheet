@@ -1,0 +1,57 @@
+html{
+    background-color: paleturquoise; /* The background-color CSS property sets the background color of an element. E.G entire webpage*/
+}
+
+h1{
+    text-align: center; /*The text-align CSS property sets the horizontal alignment of the inline-level content inside a block element or table-cell box*/
+    font-family: sans-serif; /*The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.*/
+    background-color: white;
+    width: 30%; /*The width CSS property sets an element's width*/
+    margin: auto; /*The margin CSS shorthand property sets the margin area on all four sides of an element.*/
+}
+
+div{
+    text-align: center;
+}
+h2{ 
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside; /*The list-style-postion specifies the position of the elements box in the list item. Allow me to position the bullit points in the <ul> element to cente*/
+
+}
+
+ol{
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+
+table, td, th{
+ border:2px solid ; /*The border shorthand CSS property sets an element's border. It sets the values of border-width, border-style, and border-color.*/
+ text-align: center;
+ margin:auto;
+
+}
+
+.blue{
+    color: blue; /*The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value.*/
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+.silver{
+    color:silver;
+}
+img {
+    width: 20%;
+    height: 20%;
+}
